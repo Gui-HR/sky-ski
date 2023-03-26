@@ -1,0 +1,13 @@
+@charset "UFT-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor-base: #eb4c56;
+    --cor-secundaria: #f9f9f9;
+}
+
