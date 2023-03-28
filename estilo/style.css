@@ -80,18 +80,19 @@ main{
 }
 
 section#beneficios{
+    max-width: 900px;
     display: flex;
     margin: 120px 0px;
     justify-content: center;
-    gap: 120px;
 }
 
 .icon{
     display: flex;
-    font-weight: bold;
+    margin: 0px 15px;
 }
 
 .icon > img{
-    width: 40px;
+    max-width: 40px;
     margin: 8px;
+
 }
