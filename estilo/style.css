@@ -94,5 +94,31 @@ section#beneficios{
 .icon > img{
     max-width: 40px;
     margin: 8px;
+}
 
+section#estoque{
+
+}
+
+.titulo{
+    border-left: 3px solid var(--cor-base);
+    border-radius: 3px;
+    padding-left: 8px;
+    margin-bottom: 30px;
+}
+
+#container{
+    max-width: 800px;
+    display: flex;
+    gap: 30px;
+}
+
+div.produtos{
+    max-width: 200px;
+    margin: auto;
+}
+
+img.item{
+    max-width: 170px;
+    border-radius: 10px;
 }
