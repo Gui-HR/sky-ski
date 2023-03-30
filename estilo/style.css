@@ -59,18 +59,25 @@ header > h1{
     margin-top: 170px;
 }
 
-#oferta{
+.oferta{
     background-color: var(--cor-base);
+    color: var(--cor-secundaria);
     border-radius: 5px;
     width: 90px;
     padding: 8px;
     margin: auto;
-    font-size: 0.8em;
+    font-size: 0.9em;
+    text-decoration: none;
 }
 
-#oferta:hover{
-    background-color: #eb4c57f1;
+.oferta:hover{
+    background-color: #eb4c57da;
     color: #e6e6e6;
+}
+
+.oferta > a{
+    color: var(--cor-secundaria);
+    text-decoration: none;
 }
 
 main{
@@ -81,7 +88,7 @@ main{
 section#beneficios{
     max-width: 900px;
     display: flex;
-    margin: 120px 0px;
+    margin: 100px 0px 200px 0px;
     justify-content: center;
     gap: 63px;
 }
@@ -98,10 +105,6 @@ section#beneficios{
 .icon > img{
     max-width: 40px;
     margin: 8px;
-}
-
-section#estoque{
-
 }
 
 .titulo{
@@ -145,4 +148,65 @@ div.produtos{
 img.item{
     max-width: 177.5px;
     border-radius: 10px;
+}
+
+#populares > p{
+    width: 130px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+#galeria{
+    margin: 200px auto 0px auto;
+    display: flex;
+    width: 574px;
+}
+
+.empe > img{
+    width: 244px;
+    border-radius: 5px;
+}
+
+.lado{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    gap: 30px;
+    width: 100%;
+}
+
+.lado > img{
+    border-radius: 5px;
+    width: 100%;
+}
+
+#estoque{
+    margin-top: 200px;
+}
+
+.texto{
+    display: flex;
+    justify-content: space-between;
+}
+
+.texto > h2{
+    width: 230px;
+}
+
+.texto > p{
+    width: 450px;
+}
+
+.oculos{
+    background-color: cadetblue;
+    width: 260px;
+    height: 170px;
+}
+
+.prancha{
+    background-color: coral;
+}
+
+.garrafa{
+    background-color: darkcyan;
 }
