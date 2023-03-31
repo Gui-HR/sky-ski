@@ -181,7 +181,8 @@ img.item{
 }
 
 #estoque{
-    margin-top: 200px;
+    margin: 200px auto 0px auto;
+    width: 740px;
 }
 
 .texto{
@@ -194,19 +195,37 @@ img.item{
 }
 
 .texto > p{
-    width: 450px;
+    width: 400px;
+    font-size: 0.9em;
+    padding: 5px;
+}
+
+#guarda{
+    display: flex;
+    width: 740px;
+
+    margin: auto;
 }
 
 .oculos{
-    background-color: cadetblue;
+    background: var(--cor-base) url(../imagens/oculos-baixo.png) center center no-repeat scroll;
+    background-size: cover;
     width: 260px;
     height: 170px;
 }
 
 .prancha{
-    background-color: coral;
+    background: var(--cor-base) url(../imagens/prancha-baixo.png) center center no-repeat scroll;
+    background-size: cover;
+    margin-top: 30px;
+    width: 260px;
+    height: 250px;
 }
 
 .garrafa{
-    background-color: darkcyan;
+    background: var(--cor-base) url(../imagens/garrafa-baixo.png) center center no-repeat scroll;
+    background-size: cover;
+    width: 450px;
+    height: 450px;
+    margin-left: 30px;
 }
