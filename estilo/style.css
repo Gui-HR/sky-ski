@@ -39,7 +39,13 @@ nav{
     padding-bottom: 12px;
 }
 
-nav > a{
+nav > ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav a{
     margin: 20px 10px;
     text-decoration: none;
     color: var(--cor-secundaria);
@@ -47,7 +53,7 @@ nav > a{
     border-radius: 8px;
 }
 
-nav > a:hover{
+nav a:hover{
     color: #e6e6e6;
     background-color: #f9f9f931;
 }
@@ -207,34 +213,112 @@ img.item{
      justify-content: space-around;
 }
 
-.oculos{
+#guarda a{
+    text-decoration: none;
+    color: black;
+}
+/*
+#guarda a:hover{
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.11);
+}
+*/
+
+.exp-produto{
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+
+}
+
+#oculos{
     background: var(--cor-base) url(../imagens/oculos-baixo.png) center center no-repeat scroll;
     background-size: cover;
     width: 260px;
     height: 170px;
-    border-radius: 10px;
 }
 
-.prancha{
+#prancha{
     background: var(--cor-base) url(../imagens/prancha-baixo.png) center center no-repeat scroll;
     background-size: cover;
     margin-top: 30px;
     width: 260px;
     height: 264px;
-    border-radius: 10px;
 }
 
-.garrafa{
+.preço{
+    font-weight: bold;
+}
+
+#garrafa{
     background: var(--cor-base) url(../imagens/garrafa-baixo.png) center center no-repeat scroll;
     align-self: center;
-    background-size: countain;
     width: 408px;
     height: 408px;
-    border-radius: 10px;
 }
 
 #estoque > .oferta{
     width: 130px;
     margin-top: 60px;
     text-align: center;
+}
+
+footer {
+    background-color: #1B1A1F;
+    padding: 60px 180px 0px 180px;
+}
+
+#final{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 80px;
+}
+
+.links *{
+    text-decoration: none;
+    list-style: none;
+    color: var(--cor-secundaria);
+}
+
+.links h2{
+    margin-bottom: 20px;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.links li{
+    margin: 8px;
+    font-size: 0.7em;
+}
+
+#email{
+    width: 320px;
+    background-color: rgb(78, 78, 78);
+    color: var(--cor-secundaria);
+    font-size: 0.6em;
+    padding: 10px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#email > img{
+    height: 18px;
+}
+
+#contato img{
+    height: 28px;
+    margin: 10px 10px 0px 10px;
+}
+
+#eu, #eu a{
+        color: var(--cor-secundaria);
+    text-align: center;
+    text-decoration: none;
+    padding: 40px 0px 5px 0px;
+}
+
+#eu a:hover{
+    text-decoration: underline;
 }
