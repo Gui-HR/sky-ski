@@ -88,20 +88,20 @@ header > h1{
 
 main{
     background-color: var(--cor-secundaria);
-    padding: 100px;
+    padding: 100px 30px;
 }
 
 section#beneficios{
     max-width: 900px;
     display: flex;
-    margin: 100px 0px 200px 0px;
+    margin: 100px auto 200px auto;
     justify-content: center;
     gap: 63px;
+    flex-wrap: wrap; /*Media*/
 }
 
 .icon{
     display: flex;
-
 }
 
 .icon > div > p{
@@ -109,7 +109,7 @@ section#beneficios{
 }
 
 .icon > img{
-    max-width: 40px;
+    height: 50px;
     margin: 8px;
 }
 
@@ -121,19 +121,20 @@ section#beneficios{
 }
 
 #container{
-    max-width: 800px;
     display: flex;
     gap: 30px;
     margin: 30px auto 0px auto;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 div.produtos{
     width: 200px;
     border-radius: 10px;
+    text-align: center;
 }
 
 .produtos  p{
-    text-align: center;
     color: var(--cor-clara);
 }
 
@@ -152,7 +153,7 @@ div.produtos{
 }
 
 img.item{
-    max-width: 177.5px;
+    width: 100%;
     border-radius: 10px;
 }
 
@@ -186,6 +187,24 @@ img.item{
     width: 100%;
 }
 
+/* Mobile First ajuda na responsividade fazendo com que,
+    o codigo seja "modificado" se seguir determinada condição. */
+
+@media(max-width:666px){
+    #galeria{
+        margin: 30px 0px;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .lado{
+        margin: 15px;
+        gap: 30px;
+        width: 244px;
+    }
+}
+
 #estoque{
     margin: 200px auto 0px auto;
     width: 740px;
@@ -217,11 +236,11 @@ img.item{
     text-decoration: none;
     color: black;
 }
-/*
-#guarda a:hover{
+
+/* #guarda a:hover{
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.11);
-}
-*/
+} */
+
 
 .exp-produto{
     border-radius: 10px;
