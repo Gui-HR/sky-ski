@@ -1,0 +1,136 @@
+#estoque{
+    margin: 200px auto 0px auto;
+    width: 740px;
+}
+
+.texto{
+    display: flex;
+    justify-content: space-between;
+}
+
+.texto > h2{
+    width: 230px;
+}
+
+.texto > p{
+    width: 400px;
+    font-size: 0.9em;
+    padding: 5px;
+}
+
+#guarda{
+    display: flex;
+    width: 740px;
+     margin: auto;
+     justify-content: space-around;
+}
+
+#guarda a{
+    text-decoration: none;
+    color: black;
+}
+
+/* #guarda a:hover{
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.11);
+} */
+
+
+.exp-produto{
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+
+}
+
+#oculos{
+    background: var(--cor-base) url(../imagens/oculos-baixo.png) center center no-repeat scroll;
+    background-size: cover;
+    width: 260px;
+    height: 170px;
+}
+
+#prancha{
+    background: var(--cor-base) url(../imagens/prancha-baixo.png) center center no-repeat scroll;
+    background-size: cover;
+    margin-top: 30px;
+    width: 260px;
+    height: 264px;
+}
+
+.preço{
+    font-weight: bold;
+}
+
+#garrafa{
+    background: var(--cor-base) url(../imagens/garrafa-baixo.png) center center no-repeat scroll;
+    align-self: center;
+    width: 408px;
+    height: 408px;
+}
+
+#estoque > .oferta{
+    width: 130px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+footer {
+    background-color: #1B1A1F;
+    padding: 60px 180px 0px 180px;
+}
+
+#final{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 80px;
+}
+
+.links *{
+    text-decoration: none;
+    list-style: none;
+    color: var(--cor-secundaria);
+}
+
+.links h2{
+    margin-bottom: 20px;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.links li{
+    margin: 8px;
+    font-size: 0.7em;
+}
+
+#email{
+    width: 320px;
+    background-color: rgb(78, 78, 78);
+    color: var(--cor-secundaria);
+    font-size: 0.6em;
+    padding: 10px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#email > img{
+    height: 18px;
+}
+
+#contato img{
+    height: 28px;
+    margin: 10px 10px 0px 10px;
+}
+
+#eu, #eu a{
+        color: var(--cor-secundaria);
+    text-align: center;
+    text-decoration: none;
+    padding: 40px 0px 5px 0px;
+}
+
+#eu a:hover{
+    text-decoration: underline;
+}

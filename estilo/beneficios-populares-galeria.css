@@ -1,0 +1,119 @@
+
+main{
+    background-color: var(--cor-secundaria);
+    padding: 100px 30px;
+}
+
+section#beneficios{
+    max-width: 900px;
+    display: flex;
+    margin: 100px auto 200px auto;
+    justify-content: center;
+    gap: 63px;
+    flex-wrap: wrap; /*Media*/
+}
+
+.icon{
+    display: flex;
+}
+
+.icon > div > p{
+    color: var(--cor-clara);
+}
+
+.icon > img{
+    height: 50px;
+    margin: 8px;
+}
+
+.titulo{
+    border-left: 3px solid var(--cor-base);
+    border-radius: 3px;
+    padding-left: 8px;
+    margin-bottom: 30px;
+}
+
+#container{
+    display: flex;
+    gap: 30px;
+    margin: 30px auto 0px auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div.produtos{
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.produtos  p{
+    color: var(--cor-clara);
+}
+
+.produtos  h2{
+    text-align: center;
+    font-size: 1em;
+}
+
+.produtos a{
+    text-decoration: none;
+    color: black;
+}
+
+.produtos:hover{
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.11);
+}
+
+img.item{
+    width: 100%;
+    border-radius: 10px;
+}
+
+#populares > .oferta{
+    width: 130px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+#galeria{
+    margin: 200px auto 0px auto;
+    display: flex;
+    width: 574px;
+}
+
+.empe > img{
+    width: 244px;
+    border-radius: 5px;
+}
+
+.lado{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    gap: 30px;
+    width: 100%;
+}
+
+.lado > img{
+    border-radius: 5px;
+    width: 100%;
+}
+
+/* Mobile First ajuda na responsividade fazendo com que,
+    o codigo seja "modificado" se seguir determinada condição. */
+
+@media(max-width:666px){
+    #galeria{
+        margin: 30px 0px;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .lado{
+        margin: 15px;
+        gap: 30px;
+        width: 244px;
+    }
+}
