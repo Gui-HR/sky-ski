@@ -30,11 +30,12 @@
 #guarda a{
     text-decoration: none;
     color: black;
+    background-color: ;
 }
 
-/* #guarda a:hover{
+#guarda a:hover{
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.11);
-} */
+}
 
 
 .exp-produto{
@@ -82,12 +83,12 @@ footer {
     background-color: #1B1A1F;
 }
 
-#final{
-    height: 400px; 
-}
-
 #redes{
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #redes > form , #redes > #contato {
@@ -113,10 +114,12 @@ form input {
     border: none;
     font-size: 1em;
     border-radius: 5px;
+    padding: 3px;
 }
 
-form input[type=submit]:focus-within {
-    
+form input[type=submit]:hover {
+    cursor: pointer;
+    background-color: #46454d;
 }
 
 #contato img {
@@ -124,10 +127,35 @@ form input[type=submit]:focus-within {
     margin: 5px;
 }
 
+#contato img:hover{
+    background-color: #313036;
+    border-radius: 100%;
+}
+
+#lista-link {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#lista-link .links{
+    max-width: 151px;
+}
+
+#lista-link a, #lista-link h2{
+    text-decoration: none;
+    color: white;
+}
+
+#lista-link ul{
+    list-style-type: none;
+}
+
 #eu p {
     background-color: black;
     color: white;
     text-align: center;
+    padding: 5px;
 }
 
 #eu a {
