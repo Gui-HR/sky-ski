@@ -1,3 +1,5 @@
+
+/* Estoque */
 #estoque{
     margin: 200px auto 0px auto;
     width: 740px;
@@ -75,62 +77,63 @@
     text-align: center;
 }
 
+/* Footer */
 footer {
     background-color: #1B1A1F;
-    padding: 60px 180px 0px 180px;
 }
 
 #final{
+    height: 400px; 
+}
+
+#redes{
+    padding: 20px;
+}
+
+#redes > form , #redes > #contato {
+    width: 300px;
+    margin: auto;
     display: flex;
-    justify-content: end;
-    align-items: center;
-    gap: 80px;
+    justify-content: center;
 }
 
-.links *{
-    text-decoration: none;
-    list-style: none;
-    color: var(--cor-secundaria);
+form #e-mail {
+    background-color: #313036;
+    padding: 3px;
+    border-radius: 5px;
+}
+ 
+form label {
+    display: none;
 }
 
-.links h2{
-    margin-bottom: 20px;
+form input {
+    background-color: #313036;
+    color: rgb(107, 107, 107);
+    border: none;
     font-size: 1em;
-    font-weight: normal;
+    border-radius: 5px;
 }
 
-.links li{
-    margin: 8px;
-    font-size: 0.7em;
+form input[type=submit]:focus-within {
+    
 }
 
-#email{
-    width: 320px;
-    background-color: rgb(78, 78, 78);
-    color: var(--cor-secundaria);
-    font-size: 0.6em;
-    padding: 10px 8px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+#contato img {
+    width: 40px;
+    margin: 5px;
 }
 
-#email > img{
-    height: 18px;
-}
-
-#contato img{
-    height: 28px;
-    margin: 10px 10px 0px 10px;
-}
-
-#eu, #eu a{
-        color: var(--cor-secundaria);
+#eu p {
+    background-color: black;
+    color: white;
     text-align: center;
-    text-decoration: none;
-    padding: 40px 0px 5px 0px;
 }
 
-#eu a:hover{
+#eu a {
+    color: white;
+}
+
+#eu a:hover {
     text-decoration: underline;
 }

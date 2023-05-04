@@ -4,6 +4,7 @@ main{
     padding: 100px 30px;
 }
 
+/* Beneficios */
 section#beneficios{
     max-width: 900px;
     display: flex;
@@ -33,6 +34,7 @@ section#beneficios{
     margin-bottom: 30px;
 }
 
+/* Countainer */
 #container{
     display: flex;
     gap: 30px;

@@ -21,6 +21,7 @@ body{
     background-color: var(--cor-base);
 }
 
+/* Header */
 header{
     display: flex;
     flex-direction: column;
