@@ -1,0 +1,146 @@
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    /* Header */
+    header > h1{
+        margin-top: 170px;
+    }
+
+    /* Beneficios */
+    #beneficios {
+        margin: 100px auto;
+    }
+
+    /* Populares */
+    #populares h1 {
+        width: 300px;
+        margin: auto;
+    }
+
+    #container {
+        width: 650px;
+    }
+
+    /* Galeria */
+    #galeria {
+        margin: 150px auto;
+        width: 574px;
+        flex-direction: row;
+        padding: 10px;
+    }
+
+    .empe h2 {
+        margin-bottom: 15px;
+    }
+
+    .lado {
+        width: 300px;
+    }
+
+    /* Estoque */
+#estoque #guarda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    #estoque #objeto {
+        width: 430px;
+        height: 395px;
+        margin-top: 10px auto 0px auto;
+    }
+    
+    #estoque #garrafa {
+        margin: calc(165px / 2) 8px;
+    }
+    
+}
+
+@media screen and (min-width: 992px) {
+    /* Header */
+    header {
+        border-radius: 15px 15px 0px 0px;
+    }
+
+    header > h1{
+        margin-top: 170px;
+    }
+
+    /* Beneficios */
+    #beneficios{
+        margin: bottom 170px;: ;
+    }
+
+        /* Galeria */
+    #galeria {
+        flex-direction: row;
+        justify-content: center;
+        margin: 170px 0px;
+    }
+
+    .empe h2 {
+        margin-bottom: 15px;
+    }
+
+    .empe {
+        width: 300px;
+    }
+
+    .empe img {
+        width: 100%;
+    }
+
+    .lado {
+        width: 350px;
+    }
+
+    /* Estoque */
+    #estoque {
+        max-width: 800px;
+    }
+
+    #estoque h2 {
+        width: 500px;
+        margin: 0px auto 10px auto;
+    }
+
+    #estoque p {
+        width: 500px;
+        margin: auto;
+    }
+
+    #estoque #guarda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    #estoque #objeto {
+        width: 700px;
+        height: 424px;
+        margin-top: 10px auto 0px auto;
+    }
+
+    #estoque #oculos {
+        width: 230px;
+        height: 170px;
+    }
+
+    #estoque #prancha {
+        width: 230px;
+        height: 235px;
+    }
+    
+    #estoque #garrafa {
+        width: 408px;
+        height: 408px;
+    }
+
+    #objeto p {
+        font-size: 1em;
+        margin: 0px;
+        padding-left: 5px;
+    }
+    
+
+
+}
