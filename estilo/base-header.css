@@ -31,7 +31,6 @@ header{
     background-size: cover;
     color: var(--cor-secundaria);
     padding: 12px;
-    border-radius: 15px 15px 0px 0px;
 }
 
 nav{
@@ -63,7 +62,7 @@ header > h1{
     font-size: 6em;
     text-transform: uppercase;
     align-self: center;
-    margin-top: 170px;
+    margin-top: 70px;
 }
 
 .oferta{

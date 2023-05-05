@@ -1,99 +1,93 @@
 
+:root{
+    --cor-base: #eb4c56;
+    --cor-secundaria: #f9f9f9;
+    --cor-clara: #acacac;
+}
+
 /* Estoque */
+
 #estoque{
-    margin: 200px auto 0px auto;
-    width: 740px;
+    margin-top: 70px;
+    max-width: 500px;
+    margin: 70px auto 0px auto;
 }
 
-.texto{
+ #estoque #objeto {
+    margin-top: 30px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 16px;
 }
 
-.texto > h2{
-    width: 230px;
+#estoque #oculos {
+    width: 200px;
+    height: 140px;
+    border-radius: 8px;
+    background: var(--cor-secundaria) url(../imagens/oculos-baixo.png) center no-repeat;
+    background-size: cover;
 }
 
-.texto > p{
-    width: 400px;
-    font-size: 0.9em;
-    padding: 5px;
+#estoque #prancha {
+    width: 200px;
+    height: 203px;
+    background: var(--cor-secundaria) url(../imagens/prancha-baixo.png) center no-repeat;
+    background-size: cover;
 }
 
-#guarda{
-    display: flex;
-    width: 740px;
-     margin: auto;
-     justify-content: space-around;
+#estoque #garrafa {
+    width: 200px;
+    height: 230px;
+    border-radius: 8px;
+    background: var(--cor-secundaria) url(../imagens/garrafa-baixo.png) center no-repeat;
+    background-size: cover;   
 }
 
-#guarda a{
+#guarda a {
     text-decoration: none;
-    color: black;
-    background-color: ;
+    color: #000000;
 }
 
 #guarda a:hover{
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.11);
+    border-radius: 8px;
 }
 
-
-.exp-produto{
-    border-radius: 10px;
-    display: flex;
-    justify-content: space-around;
-    align-items: end;
-
-}
-
-#oculos{
-    background: var(--cor-base) url(../imagens/oculos-baixo.png) center center no-repeat scroll;
-    background-size: cover;
-    width: 260px;
-    height: 170px;
-}
-
-#prancha{
-    background: var(--cor-base) url(../imagens/prancha-baixo.png) center center no-repeat scroll;
-    background-size: cover;
-    margin-top: 30px;
-    width: 260px;
-    height: 264px;
-}
-
-.preço{
+div.exp-produto .preço {
     font-weight: bold;
 }
 
-#garrafa{
-    background: var(--cor-base) url(../imagens/garrafa-baixo.png) center center no-repeat scroll;
-    align-self: center;
-    width: 408px;
-    height: 408px;
+div.exp-produto {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    font-size: .9em;
 }
 
-#estoque > .oferta{
+#estoque .oferta {
     width: 130px;
-    margin-top: 60px;
+    margin-top: 20px;
     text-align: center;
 }
 
 /* Footer */
 footer {
     background-color: #1B1A1F;
+    padding-top: 20px;
 }
 
-#redes{
+#redes {
     padding: 20px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
+    align-items: center;
 }
 
 #redes > form , #redes > #contato {
     width: 300px;
-    margin: auto;
     display: flex;
     justify-content: center;
 }
@@ -127,7 +121,7 @@ form input[type=submit]:hover {
     margin: 5px;
 }
 
-#contato img:hover{
+#contato img:hover {
     background-color: #313036;
     border-radius: 100%;
 }
@@ -138,16 +132,16 @@ form input[type=submit]:hover {
     justify-content: space-around;
 }
 
-#lista-link .links{
+#lista-link .links {
     max-width: 151px;
 }
 
-#lista-link a, #lista-link h2{
+#lista-link a, #lista-link h2 {
     text-decoration: none;
     color: white;
 }
 
-#lista-link ul{
+#lista-link ul {
     list-style-type: none;
 }
 
